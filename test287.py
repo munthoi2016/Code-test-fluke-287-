@@ -4,7 +4,7 @@ import time
 
 def read_ampe_value():
     try:
-        # Mở kết nối với cổng COM, điều chỉnh 'COM1' thành cổng COM thích hợp
+        # Mở kết nối với cổng COM, điều chỉnh 'COM3' thành cổng COM thích hợp
         ser = serial.Serial('COM3', baudrate=115200, timeout=1)
         print("Connected to Fluke 287")
         
