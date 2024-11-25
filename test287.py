@@ -18,7 +18,7 @@ def read_ampe_value():
             # In giá trị dòng điện Ampe đọc được
             print("Current Value:", response)
             
-            # Chờ 1 giây trước khi đọc giá trị mới
+            # Chờ 0.1 giây trước khi đọc giá trị mới
             time.sleep(0.1)
             
     except serial.SerialException as e:
